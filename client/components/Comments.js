@@ -2,9 +2,11 @@ import React from 'react'
 
 const Comments = React.createClass({
     render() {
-        <div className='comment'>
-            I am the comments
-        </div>
+        return (
+            <div className='comment'>
+                I am the comments
+            </div>
+        )
     }
 })
 
